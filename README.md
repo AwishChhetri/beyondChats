@@ -143,10 +143,27 @@ DB_PASSWORD=...
 ### Worker
 
 ```
-LARAVEL_API=http://localhost:8000/api
+LARAVEL_API=...
 SERP_API_KEY=...
 GEMINI_API_KEY=...
 ```
+### Node Worker Environment Variables
+
+```env
+# Base URL of the Laravel API
+LARAVEL_API=https://server-bogs.onrender.com/api/articles(Deployed)
+
+# SerpAPI – Google Search API
+# Used for fetching search results during scraping
+SERP_API_KEY=your_serpapi_key
+# Reference: https://serpapi.com/
+# Docs: https://serpapi.com/search-api
+
+# Google Gemini API
+# Used for AI-based article rewriting
+GEMINI_API_KEY=your_gemini_api_key
+# Reference: https://ai.google.dev/
+# Docs: https://ai.google.dev/gemini-api
 
 ### React
 
@@ -178,18 +195,6 @@ VITE_API_BASE_URL=http://localhost:8000/api
 
 ---
 
-## 🔮 Roadmap
-
-* Redis queues
-* Retry & failure tracking
-* Auth + rate limiting
-* OpenAPI spec
-* Logs & observability
-
----
-
 **Status:** Stable foundation
-**Architecture:** Locked
-**Next move:** Scale, don’t rewrite
 
 🌐 Live: [https://beyond-chats-ten.vercel.app/](https://beyond-chats-ten.vercel.app/)
