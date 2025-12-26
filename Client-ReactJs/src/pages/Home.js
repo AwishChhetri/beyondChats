@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import ArticleList from "../components/ArticleList";
 
-const API_URL = "http://127.0.0.1:8000/api/articles";
+const API_URL = "https://beyond-chats-ten.vercel.app/api/articles";
 
 export default function Home() {
   const [articles, setArticles] = useState([]);
