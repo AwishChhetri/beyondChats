@@ -168,7 +168,7 @@ GEMINI_API_KEY=your_gemini_api_key
 ### React
 
 ```
-VITE_API_BASE_URL=http://localhost:8000/api
+VITE_API_BASE_URL = https://server-bogs.onrender.com/api/articles
 ```
 
 `.env` files are never committed.
@@ -197,4 +197,4 @@ VITE_API_BASE_URL=http://localhost:8000/api
 
 **Status:** Stable foundation
 
-🌐 Live: [https://beyond-chats-ten.vercel.app/](https://beyond-chats-ten.vercel.app/)
+🌐 Live: [https://beyond-chats-ten.vercel.app/]
